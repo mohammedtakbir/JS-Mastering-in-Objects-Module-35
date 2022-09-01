@@ -24,7 +24,7 @@ const keys = Object.keys(bottle);
 //* advance
 const pair = Object.entries(bottle);
 // console.log(pair)
-const [a, b] = [12, 23, 34, 45]
+// const [a, b] = [12, 23, 34, 45]
 //* [ [ 'color', 'Yellow' ], [ 'price', 50 ], [ 'isCleaned', true ], [ 'capacity', 1 ] ]
 for(const test of Object.entries(bottle)){
     // console.log(test)

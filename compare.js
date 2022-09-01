@@ -28,6 +28,9 @@ function compareObject(first, second){
             if(first[key] !== second[key]){
                 return false;
             }
+            else{
+                return true;
+            }
         }
     }else{
         return false;
